@@ -1,0 +1,15 @@
+import turtle
+t = turtle.Turtle()
+t.speed(3)
+
+t.pensize(6)
+
+t.penup()
+t.goto(-100, 0)
+t.setheading(90)  
+t.pendown()
+
+
+t.circle(-75,360)
+
+turtle.done()
